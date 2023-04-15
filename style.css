@@ -1,0 +1,291 @@
+*, ::before
+::after { box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FAFAFA;
+
+}
+.main {
+    border: 3px;
+    border-color: gray;
+    width: 500px;
+    height: 1900px;
+}
+
+h1 {
+    font-weight: 500 bold;
+    font-size: 28px;
+    text-align: center; 
+    padding: auto;
+    margin: auto;   
+}
+
+h2 {
+    font-weight: 500 bold;
+    font-size: 16px;
+    text-align: center;
+    margin: 40px 0 0 0;
+    
+}
+
+.description {
+    font-weight: 300;
+    font-size: 16px;
+    color: #8B8B8B;
+    padding: 15px 20px 20px 20px;
+    text-align: center;
+}
+
+button {
+    border-radius: 20px;
+}
+
+.blue {
+    background-color: #407BFF;
+    padding: 11px 30px;
+    border: none;
+    color: white;
+    position: absolute;
+    left: 160px;
+    top: 583px;
+}
+
+.grey {
+    background-color: #8B8B8B;
+    padding: 11px 30px;
+    border: none;
+    color: white;
+    position: absolute;
+    left: 150px;
+    top: 633px;
+}
+
+
+.main_picture {
+    width: 350px;
+    height: 290px;
+    position: relative;
+    padding: 60px 75px 40px 75px;
+    
+}
+
+.empty {
+    height: 100px;
+}
+
+.picture {
+    width: 50px;
+    height: 40px;
+    margin: 20px 0 20px 30px;
+    padding: 20px 0;   
+}
+
+.content {
+    display: flex;
+    background-color: white;
+    box-shadow: #407BFF1F;
+    margin: 20px;
+    width: 460px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #407BFF1F;  
+    
+}
+
+.box {
+    font-size: 13px;
+    padding: 20px;
+    margin: auto;
+    color: #8B8B8B;
+}
+
+
+@media screen and (min-width: 640px) {
+
+.main {
+    width: 768px;
+    height: 1461px;
+
+}   
+
+.main_picture {
+    width: 400px;
+    height: 332px;
+    padding: 60px 184px 30px 183px
+}
+
+.description {
+    padding: 0 109px;
+}
+
+.blue, .grey {
+    top: 595px;
+
+}
+
+.blue {
+    left: 167px;
+
+}
+.grey {
+    left: 382px;
+}
+
+
+.container {
+    display: flex;
+    
+}
+
+.content {
+    flex: 1 1 calc(100%/ 3);
+    display: block;
+    
+}
+
+.picture {
+    padding: 40px 92px 10px 92px;
+    margin: 0;
+}
+
+.box {
+    text-align: center;
+    padding: 0 0 40px 0;
+}
+}
+
+
+@media screen and (min-width: 1100px) {
+
+.main {
+    width: 1040px;
+    height: 1015px;
+    justify-content: center;
+
+}
+.top {
+    display: flex;
+    justify-content: space-between; 
+    column-gap: 60px;
+    flex-shrink: 0;
+}
+
+.main_picture {
+    width: 425px;
+    padding: 30px 50px 80px 60px;
+    position: absolute;
+    left: 580px;
+    
+
+
+
+}
+.top_content {
+    order: -1;
+    width: 490px;
+}
+
+
+
+h1 {
+    text-align: left;
+    padding: 133px 0 20px 82px;
+}
+
+div .one {
+    
+    text-align: left;
+    width: 490px;
+}
+
+.blue {
+    top: 307px;
+    left: 90px;
+}
+
+.grey {
+    top: 307px;
+    left: 297px;
+}
+
+.description {
+    padding: 0 60px 0 82px;
+}
+
+
+.empty2{
+    height: 80px;
+}
+
+.content {
+    width: 170px;
+    height: 191px;
+    margin: 10px;
+}
+
+.first {
+    margin: 10px 10px 10px 0;
+}
+
+.picture {
+    height: 40px;
+    padding: 40px 60px 20px 60px;
+}
+
+/*second part */
+.middle,
+.bottom {
+    display: flex;
+    flex: auto;
+}
+
+.middle2 {
+    order: -1;
+    width: 550px;
+    margin: 80px 60px 80px 80px;
+}
+
+.box {
+    width: 140px;
+    height: 51px;
+}
+
+.middle1 {
+    width: 430px;
+    margin: 140px 20px 80px 20px;
+    text-align: left;
+    flex-shrink: 0;
+}
+div .two {
+    padding: 0;
+    text-align: left;
+}
+
+.sluzby {
+    text-align: left;
+    margin: 0;
+}
+
+
+/*third part*/
+.h2_nadpis 
+ {
+    text-align: left;
+    margin: 50px 0 0 80px;
+}
+
+div .three{
+    text-align: left;
+}
+
+.bottom1 {
+    flex-basis: 60%;
+    flex-shrink: 0;
+    
+}
+
+
+
+}    
