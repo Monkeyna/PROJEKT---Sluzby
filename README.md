@@ -13,7 +13,7 @@ Za úkol máš nakódovat design podle grafického návrhu. Jedná se o stránku
 
 Tentokrát budeš mít jako jediný podklad pro zadání grafický návrh vyexportovaný v módu pro vývojáře z Adobe XD.
 
-![Ukázka výsledku](ukazka-vysledku.jpg)
+<img width="686" alt="image" src="https://user-images.githubusercontent.com/116753150/232900254-3099d27e-3126-43b4-b9cb-6f03ad3de0bd.png">
 
 ## Cíl úkolu
 
